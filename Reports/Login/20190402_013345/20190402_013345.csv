@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 73.0.3683.86,,2019-04-02 01:33:48,2019-04-02 01:34:36,47.631s,PASSED
+,,,,,,
+Test Cases/Login,Chrome 73.0.3683.86,,2019-04-02 01:33:49,2019-04-02 01:34:36,47.192s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-02 01:33:49,2019-04-02 01:33:55,5.740s,PASSED
+"navigateToUrl(""https://10.240.198.47/ui/login.html"")",Chrome 73.0.3683.86,,2019-04-02 01:33:55,2019-04-02 01:33:57,1.733s,PASSED
+"setText(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator  Login/input_User name_username""), G_login)",Chrome 73.0.3683.86,,2019-04-02 01:33:57,2019-04-02 01:34:01,4.454s,PASSED
+"setText(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator  Login/input_Password_password""), G_Password)",Chrome 73.0.3683.86,,2019-04-02 01:34:01,2019-04-02 01:34:05,4.205s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator  Login/span_Log In_1""))",Chrome 73.0.3683.86,,2019-04-02 01:34:05,2019-04-02 01:34:07,2.160s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/div_Hardware""))",Chrome 73.0.3683.86,,2019-04-02 01:34:07,2019-04-02 01:34:11,3.700s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/td_Discover and Manage New Devices""))",Chrome 73.0.3683.86,,2019-04-02 01:34:11,2019-04-02 01:34:13,2.141s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/span_Manual Input""))",Chrome 73.0.3683.86,,2019-04-02 01:34:13,2019-04-02 01:34:15,2.226s,PASSED
+"setText(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/input_Host Name or IP Address_lxca_customUI_discovery_discovery_0_manualIputDialog0_singleIPaddrId""), ""10.240.193.218"")",Chrome 73.0.3683.86,,2019-04-02 01:34:15,2019-04-02 01:34:20,4.370s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/span_OK""))",Chrome 73.0.3683.86,,2019-04-02 01:34:20,2019-04-02 01:34:22,2.129s,PASSED
+waitForPageLoad(10),Chrome 73.0.3683.86,,2019-04-02 01:34:22,2019-04-02 01:34:23,1.072s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/div_Stored Credentials_dijitReset dijitArrowButtonInner""))",Chrome 73.0.3683.86,,2019-04-02 01:34:23,2019-04-02 01:34:27,3.657s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/td_""))",Chrome 73.0.3683.86,,2019-04-02 01:34:27,2019-04-02 01:34:29,2.166s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/input__dijit_form_CheckBox_4""))",Chrome 73.0.3683.86,,2019-04-02 01:34:29,2019-04-02 01:34:31,2.132s,PASSED
+"click(findTestObject(""Object Repository/Page_1024019847 - Lenovo XClarity Administrator/span_Manage""))",Chrome 73.0.3683.86,,2019-04-02 01:34:31,2019-04-02 01:34:33,2.127s,PASSED
+waitForPageLoad(30),Chrome 73.0.3683.86,,2019-04-02 01:34:33,2019-04-02 01:34:34,1.018s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-02 01:34:34,2019-04-02 01:34:36,1.588s,PASSED
